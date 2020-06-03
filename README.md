@@ -21,6 +21,7 @@
  //Multiple condtition
 
    @Test
+   
    void multipleCondition(){
 
      //user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername())
@@ -55,6 +56,7 @@
  //EveryBranch
 
    @Test
+   
    void everyBranch() {
      /*
      First assert = assertNull
