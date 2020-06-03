@@ -66,17 +66,7 @@ public class SILab2 {
         return false;
     }
     public static void main(String[] args) {
-        SILab2 siLab2 = new SILab2();
-        List<String> allUsers = new ArrayList<>(1);
-        allUsers.add("drilons6");
-        //System.out.println("allusers: " + allUsers);
-        System.out.println(siLab2.function(new User("drilons6","dizanje1!","drilon-saitihotmail.com"), Collections.singletonList(allUsers.toString())));
-        User user = new User("drilons6","dizanje1!","drilon-saiti@hotmail.com");
-        User user1 = new User(user.getUsername(),user.getPassword(),user.getUsername());
-        //System.out.println(user1);
-        //System.out.println(siLab2.function(user1,"drilons6"));
+       
     }
-    private List<String> createList(String... elems){
-        return new ArrayList<>(Arrays.asList(elems));
-    }
+   
 }
