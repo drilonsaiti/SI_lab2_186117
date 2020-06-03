@@ -58,6 +58,7 @@
    @Test
    
    void everyBranch() {
+   
      /*
      First assert = assertNull
      Second assert = assertWithoutUsername
