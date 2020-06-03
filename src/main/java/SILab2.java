@@ -58,13 +58,7 @@ public class SILab2 {
         return false; //13
     } //14
 
-    public boolean funk(User user, String user2){
-        if(user != null) {
-            System.out.println(user);
-            return true;
-        }
-        return false;
-    }
+    
     public static void main(String[] args) {
        
     }
