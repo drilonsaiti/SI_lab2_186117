@@ -8,11 +8,9 @@
 
 ### Control Flow Graph:
 
-![CFG](C:\Users\drilon\Desktop\SI_LAB2\New folder (2)\a.png "ControlFlowGraph")
+![CFG](https://i.ibb.co/92FjrC8/a.jpg "ControlFlowGraph")
 
 
-
- 
 
 ### Цикломатска комплексност:
 
