@@ -79,5 +79,16 @@
 ###  Објаснување на напишаните unit tests
 
  **Multiple condtition** значи сите if-statment коит имат логични операции и & или.Се тестират условите на if-statment.
+ Multiple condtition		
+Combination	Possible Test Case	Branch
+TT	drilon-saiti@hotmail.com	    8-9
+TF	drilon-saiti@hotmailcom	     8-10
+FX	Drilon-saitihotmail.com	     8-10
+		
+TTT	drilons6,drilon-saiti@hotmail.com,drilons6	3-4
+TTF	drilons6,drilon-saiti@hotmail.com,drilon	3-13
+TFF	drilons6,null,drilons6	3-13
+FXX	null	3-13
+
 
 **Every Branch** значи во сите јазлите од графот.Се тестират сите јазлите на пример од 1-2 2-3 итн.
