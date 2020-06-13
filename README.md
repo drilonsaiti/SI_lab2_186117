@@ -85,6 +85,7 @@
  Multiple condtition	
  
  > atChar && user.getEmail().charAt(i)=='.'
+ 
 |Combination|Possible Test|Case	Branch|
 |:----------|:------------|:----------|
 |TT|drilon-saiti@hotmail.com|8-9|
@@ -92,6 +93,7 @@
 |FX|drilon-saitihotmail.com|8-10|
 
 >  //user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername())
+
 |Combination|Possible Test|Case	Branch|
 |:----------|:------------|:----------|
 |TTT|drilons6,drilon-saiti@hotmail.com,drilons6|3-4
