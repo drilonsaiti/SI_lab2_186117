@@ -20,6 +20,7 @@
 
  //Multiple condtition
 
+```java
    @Test
    
    void multipleCondition(){
@@ -50,6 +51,7 @@
         () -> assertEquals(siLab2.function(new User("drilons6","123456!","drilon-saitihotmail.com"), Collections.singletonList(createList("drilons6").toString())),false)
     );
    }
+   ```
 
 ###  Тест случаи според критериумот Еvery Branch 
 
