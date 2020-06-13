@@ -57,6 +57,7 @@
 
  //EveryBranch
 
+```java
    @Test
    
    void everyBranch() {
@@ -77,18 +78,22 @@
      
      );
    }
-
+```
 ###  Објаснување на напишаните unit tests
 
  **Multiple condtition** значи сите if-statment коит имат логични операции и & или.Се тестират условите на if-statment.
  Multiple condtition	
  
+ > atChar && user.getEmail().charAt(i)=='.'
 |Combination|Possible Test|Case	Branch|
 |:----------|:------------|:----------|
 |TT|drilon-saiti@hotmail.com|8-9|
 |TF|drilon-saiti@hotmailcom|8-10|
 |FX|drilon-saitihotmail.com|8-10|
-|  | | |		
+
+>  //user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername())
+|Combination|Possible Test|Case	Branch|
+|:----------|:------------|:----------|
 |TTT|drilons6,drilon-saiti@hotmail.com,drilons6|3-4
 |TTF|drilons6,drilon-saiti@hotmail.com,drilon|3-13
 |TFF|drilons6,null,drilons6|3-13|
